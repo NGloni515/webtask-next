@@ -4,6 +4,7 @@ body {
   margin: 0;
   font-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Oxygen,
     Ubuntu, Cantarell, Fira Sans, Droid Sans, Helvetica Neue, sans-serif;
+    background-color: #efeff2;
 }
 
 a {
@@ -15,12 +16,246 @@ a {
   box-sizing: border-box;
 }
 
-@media (prefers-color-scheme: dark) {
-  html {
-    color-scheme: dark;
+h4.container-title{
+  font-size: 24px;
+}
+
+.no-padding{
+  padding: 0;
+}
+
+.no-margin{
+  margin: 0;
+}
+
+div.align-center h4.no-margin{
+  margin: 0;
+}
+
+.icon-text{
+  margin: 0 0 -2px 0;
+}
+
+.mb-1{
+  margin-bottom: 8px;
+}
+
+.mb-3{
+  margin-bottom: 24px;
+}
+
+div.mb-4{
+  margin-bottom: 32px;
+}
+
+div.margin-t4{
+  margin-top: 32px;
+}
+
+.grid-container{
+  display: grid;
+  grid-template-columns: auto;
+  margin:0;
+  padding:0;
+  /* width: 100vw;
+  overflow: hidden; */
+}
+
+div.grid-performance-container{
+  display: grid;
+  grid-template-columns: auto auto;
+  margin: 24px 32px 16px 32px;
+  
+}
+
+div.grid-performance-container div:first-child{
+  margin-right: 8px;
+}
+
+.grid-image-container{
+  display: grid;
+  grid-template-columns: auto auto auto auto auto auto;
+  max-width: 100vw;
+}
+
+.grid-image-item{
+  max-width: 17vw;
+  margin: 0 0px;
+}
+
+.grid-table{
+  display: grid;
+  grid-template-columns: auto auto auto;
+  
+  
+}
+
+.grid-table-element-left{
+  border-bottom: 1px solid #9b9b9b;
+  grid-column: 3 / 3;
+  padding: 16px 0 16px 0;
+  color:#000;
+  font-size: 1rem;
+  font-weight: bold;
+}
+.grid-table-element-right{
+  border-bottom: 1px solid #9b9b9b;
+  grid-column: 1 / 3;
+  padding: 16px 0 16px 0;
+  color:#9b9b9b;
+  font-size: 1rem;
+  
+}
+
+.align-center{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  width: 60%;
+}
+
+/* MOBILE RESPONSIVE STYLES */
+
+@media screen and (max-width: 768px) {
+  .mobile-hide{
+      display: none;
   }
-  body {
-    color: white;
-    background: black;
+  .mobile-show{
+      display: block;
   }
+  div.mobile-general{
+      padding: 0;
+      margin: 0 0 0 0;
+      width: 100vw;
+      max-width: 100vw;
+      min-width: 100vw;
+      background-color: #fff;
+      height: 256px;
+  }
+  div.car-container-mobile{
+      padding: 0;
+      margin: 32px 0 0 32px;
+  }
+  div.car-container-grid{
+      display: grid;
+      grid-template-areas:
+      'col1 col2'
+      'col1 col3';
+      
+  }
+  div.car-container-col1{
+      grid-area: col1;
+      margin: 16px 0 0 0;
+  }
+  div.car-container-col2{
+      margin: 35px 0 0 0;
+      grid-area: col2;
+  }
+  div.car-container-col3{
+      grid-area: col3;
+      /* display: ; */
+  }
+  div.align-center{
+      align-items: baseline;
+  }
+  h4.views{
+      margin-top: 8px;
+  }
+  div.grid-performance-container{
+      grid-template-columns: auto;
+      margin: 0;
+      width: 100vw;
+      max-width: 100vw;
+      min-width: 100vw;
+  }
+  div.performance-card-responsive{
+      width: 100%;
+      max-width: 100%;
+      min-width: 80%;
+      box-sizing:border-box;
+      margin: 8px 0;
+      height:auto;
+  }
+  div.grid-performance-container div:first-child{
+      margin-right: 0;
+  }
+}
+
+@media screen and (min-width: 769px) {
+  .desktop-hide{
+      display: none;
+  }
+  .desktop-show{
+      display: block;
+  }
+}
+
+div.carousel.carousel-slider{
+  height: 256px;
+  max-width: 100vw;
+  
+}
+
+.mySlides {display: none}
+img {vertical-align: middle;}
+
+.prev, .next {
+  cursor: pointer;
+  position: absolute;
+  top: 50%;
+  width: auto;
+  padding: 16px;
+  margin-top: -22px;
+  color: white;
+  font-weight: bold;
+  font-size: 18px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;
+}
+
+/* Position the "next button" to the right */
+.next {
+  right: 0;
+  border-radius: 3px 0 0 3px;
+}
+
+/* On hover, add a black background color with a little bit see-through */
+.prev:hover, .next:hover {
+  background-color: rgba(0,0,0,0.8);
+}
+
+
+/* The dots/bullets/indicators */
+.dot {
+  cursor: pointer;
+  height: 15px;
+  width: 15px;
+  margin: 0 2px;
+  background-color: #bbb;
+  border-radius: 50%;
+  display: inline-block;
+  transition: background-color 0.6s ease;
+}
+
+.active, .dot:hover {
+  background-color: #717171;
+}
+
+/* Fading animation */
+.fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4} 
+  to {opacity: 1}
 }
