@@ -27,7 +27,8 @@ import {
 import "react-responsive-carousel/lib/styles/carousel.min.css"; 
 import { Carousel } from 'react-responsive-carousel';
 import { EMPTY_CAR, Car } from '../../models/car.model';
-import axios from 'axios';
+//import axios from 'axios';
+import { getCars } from '../../requests/cars';
 
 const Body = () => {
 
@@ -35,21 +36,23 @@ const Body = () => {
     const [currentImage, setCurrentImage] = useState<string>("");
 
     useEffect(() => {
-        const myAsyncFunc = async() => {
-            const response :Car = (await axios.get(`/api/cars`)).data.car;
-            setCar(response)
-            setCurrentImage(response.imagesUrls[0])
+        const setFetchData = async() => {
+            const car : Car = await getCars();
+            if(car){
+                setCar(car)
+                setCurrentImage(car.imagesUrls[0])
+            }
         }
-        myAsyncFunc();
+        setFetchData();
     }, []);
     
     const {name, year, priceMin, priceMax, mileage, itemNumber, vin, views, saves, shares, extrior, performance, imagesUrls} = car;
     return(
-        <div className="grid-container">
+        <div data-testid="grid-container" className="grid-container">
             <div className="desktop-hide">
                 <Carousel className="carousel-style" showArrows={false} showStatus={false} showThumbs={false} >
                     {imagesUrls && imagesUrls.map((element, index) => 
-                        <div key={index} className="slider-item-div">
+                        <div data-testid="slider-item-div" key={index} className="slider-item-div">
                             <img src={element} alt={"car image "+ index}/>
                         </div>
                     )}
@@ -92,7 +95,7 @@ const Body = () => {
                     </CarContainer>
                 </CarGeneralData>
             </MainContainer>
-            <Container className="margin-t4 grid-image-container mobile-hide">
+            <Container data-testid="image-container" className="margin-t4 grid-image-container mobile-hide">
                 {imagesUrls && imagesUrls.map((element, index) => 
                     <ImageElement key={index} className="grid-image-item" src={element} alt={"car image "+ index} onClick={()=>{setCurrentImage(element)}}/>
                 )}

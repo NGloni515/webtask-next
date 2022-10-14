@@ -1,0 +1,294 @@
+// Jest Snapshot v1, https://goo.gl/fbAQLP
+
+exports[`Body Match snapshot Carousel 1`] = `
+<DocumentFragment>
+  <div
+    class="grid-container"
+    data-testid="grid-container"
+  >
+    <div
+      class="desktop-hide"
+    />
+    <div
+      class="BodyElements__MainContainer-sc-cbg9h8-8 hfgNCg"
+    >
+      <img
+        class="BodyElements__MainImage-sc-cbg9h8-9 kVUcyO mobile-hide"
+        src=""
+      />
+      <div
+        class="BodyElements__CarGeneralData-sc-cbg9h8-11 kgDEDz mobile-general"
+      >
+        <div
+          class="BodyElements__CarContainer-sc-cbg9h8-12 igZHKP car-container-mobile"
+        >
+          <h4
+            class="BodyElements__ContainerTitle-sc-cbg9h8-0 dTTkrn"
+          >
+              
+          </h4>
+          <div
+            class="BodyElements__Container-sc-cbg9h8-7 hyCVVz car-container-grid"
+          >
+            <div
+              class="BodyElements__ParamsContainer-sc-cbg9h8-6 jVRgAz car-container-col1"
+            >
+              <h4
+                class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz"
+              >
+                Year
+              </h4>
+              <h4
+                class="BodyElements__ContainerImportantData-sc-cbg9h8-2 cyKKaw"
+              >
+                0
+              </h4>
+              <h4
+                class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz"
+              >
+                Price Range
+              </h4>
+              <h4
+                class="BodyElements__ContainerImportantData-sc-cbg9h8-2 cyKKaw"
+              >
+                $0 - $0
+              </h4>
+              <h4
+                class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz"
+              >
+                Mileage
+              </h4>
+              <h4
+                class="BodyElements__ContainerImportantData-sc-cbg9h8-2 cyKKaw"
+              >
+                0 miles
+              </h4>
+            </div>
+            <div
+              class="BodyElements__Container-sc-cbg9h8-7 hyCVVz car-container-col2"
+            >
+              <h4
+                class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz"
+              >
+                Item Number: 0
+              </h4>
+              <h4
+                class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz"
+              >
+                VIN: 
+              </h4>
+              <h4
+                class="BodyElements__ContainerShare-sc-cbg9h8-3 bpkRSf"
+              >
+                Share this car 
+                <svg
+                  class="icon-text"
+                  fill="currentColor"
+                  height="1em"
+                  stroke="currentColor"
+                  stroke-width="0"
+                  viewBox="0 0 512 512"
+                  width="1em"
+                  xmlns="http://www.w3.org/2000/svg"
+                >
+                  <path
+                    d="M424 80H88a56.06 56.06 0 00-56 56v240a56.06 56.06 0 0056 56h336a56.06 56.06 0 0056-56V136a56.06 56.06 0 00-56-56zm-14.18 92.63l-144 112a16 16 0 01-19.64 0l-144-112a16 16 0 1119.64-25.26L256 251.73l134.18-104.36a16 16 0 0119.64 25.26z"
+                  />
+                </svg>
+                 
+              </h4>
+            </div>
+            <div
+              class="BodyElements__Container-sc-cbg9h8-7 hyCVVz align-center car-container-col3"
+            >
+              <div
+                class="BodyElements__Container-sc-cbg9h8-7 hyCVVz"
+              >
+                <h4
+                  class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz no-margin"
+                >
+                  Views
+                </h4>
+                <h4
+                  class="BodyElements__CountNumber-sc-cbg9h8-4 fRqoPJ views"
+                >
+                  0
+                </h4>
+              </div>
+              <div
+                class="BodyElements__Container-sc-cbg9h8-7 hyCVVz"
+              >
+                <h4
+                  class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz no-margin mobile-hide"
+                >
+                  Saves
+                </h4>
+                <h4
+                  class="BodyElements__CountNumber-sc-cbg9h8-4 fRqoPJ mobile-hide"
+                >
+                  0
+                </h4>
+              </div>
+              <div
+                class="BodyElements__Container-sc-cbg9h8-7 hyCVVz"
+              >
+                <h4
+                  class="BodyElements__ContainerParam-sc-cbg9h8-1 hygXcz no-margin mobile-hide"
+                >
+                  Shares
+                </h4>
+                <h4
+                  class="BodyElements__CountNumber-sc-cbg9h8-4 fRqoPJ mobile-hide"
+                >
+                  0
+                </h4>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div
+      class="BodyElements__Container-sc-cbg9h8-7 hyCVVz margin-t4 grid-image-container mobile-hide"
+      data-testid="image-container"
+    />
+    <button
+      class="BodyElements__MobileButton-sc-cbg9h8-16 eTcPPZ desktop-hide"
+    >
+      CALL US
+    </button>
+    <div
+      class="BodyElements__Container-sc-cbg9h8-7 hyCVVz grid-performance-container"
+    >
+      <div
+        class="BodyElements__PerformanceCard-sc-cbg9h8-13 fnisDo performance-card-responsive"
+      >
+        <div
+          class="BodyElements__PerformanceTitle-sc-cbg9h8-14 jRvUoV"
+        >
+          EXTRIOR
+        </div>
+        <div
+          class="BodyElements__Container-sc-cbg9h8-7 hyCVVz grid-table"
+        >
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Cylinders
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            City MPG
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0 MPG
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Highway MPG
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0 MPG
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Engine
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0
+          </p>
+        </div>
+      </div>
+      <div
+        class="BodyElements__PerformanceCard-sc-cbg9h8-13 fnisDo performance-card-responsive"
+      >
+        <div
+          class="BodyElements__PerformanceTitle-sc-cbg9h8-14 jRvUoV"
+        >
+          PERFORMANCE
+        </div>
+        <div
+          class="BodyElements__Container-sc-cbg9h8-7 hyCVVz grid-table"
+        >
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Cylinders
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            City MPG
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0 MPG
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Highway MPG
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0 MPG
+          </p>
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-right"
+          >
+            Engine
+          </p>
+           
+          <p
+            class="BodyElements__Text-sc-cbg9h8-20 eMxcTw grid-table-element-left"
+          >
+            0
+          </p>
+        </div>
+      </div>
+    </div>
+    <footer
+      class="BodyElements__MobileFooter-sc-cbg9h8-17 ghIHSa desktop-hide"
+    >
+      <p
+        class="BodyElements__MobileFooterTitle-sc-cbg9h8-18 jyPmCW"
+      >
+        About Us / Terms / Privacy Policy
+      </p>
+      <p
+        class="BodyElements__MobileFooterDescription-sc-cbg9h8-19 cJluul"
+      >
+        PLS is a registered service mark and other marks are service marks of PLS Financial Services, Inc 2016
+      </p>
+    </footer>
+  </div>
+</DocumentFragment>
+`;
